@@ -1,0 +1,70 @@
+html {
+  font-size: 10px; /* 10px = 1rem */
+}
+
+body {
+  font-family: 'Satisfy', 'Roboto', cursive, sans-serif;
+}
+
+/* HEADER */
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+}
+
+.extremoduro-img {
+  height: 100px;
+  width: auto;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  width: 600px;
+  margin-right: 80px;
+}
+
+.navbar-list li {
+  font-family: 'Satisfy';
+  list-style: none;
+  margin-top: 10px;
+}
+
+.navbar-list a {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2.7rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.buttons img {
+  height: 30px;
+  margin-top: 10px;
+}
+
+/* MAIN */
+
+h1 {
+  font-size: 7rem;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 12%
+}
+
+.container  {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-image: url('/public/images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85vh;
+}
