@@ -15,8 +15,10 @@ body {
 }
 
 .extremoduro-img {
+  position: absolute;
   height: 100px;
   width: auto;
+  left: 12%
 }
 
 .navbar-list {
@@ -24,7 +26,6 @@ body {
   justify-content: space-evenly;
   padding: 0;
   width: 600px;
-  margin-right: 80px;
 }
 
 .navbar-list li {
@@ -41,10 +42,6 @@ body {
   color: inherit;
 }
 
-.buttons img {
-  height: 30px;
-  margin-top: 10px;
-}
 
 /* MAIN */
 
