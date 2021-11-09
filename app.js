@@ -1,26 +1,26 @@
-const express = require('express');
+const express = require("express");
 const app = express();
 
 //MIDDLEWARE
 
-app.use(express.static('public')); //Static files directory
+app.use(express.static(__dirname + "/public")); //Static files directory
 
 //ROUTES
 
 app.get('/', (request, response) => {
-  response.sendFile(__dirname + '/views/home.html');
+  response.sendFile(__dirname + "/views/home.html");
 });
 
 app.get('/home', (request, response) => {
-  response.sendFile(__dirname + '/views/home.html');
+  response.sendFile(__dirname + "/views/home.html");
 });
 
 app.get('/about', (request, response) => {
-  response.sendFile(__dirname + '/views/about.html');
+  response.sendFile(__dirname + "/views/about.html");
 });
 
 app.get('/discography', (request, response) => {
-  response.sendFile(__dirname + '/views/discography.html');
+  response.sendFile(__dirname + "/views/discography.html");
 });
 
 app.listen(3000, () => {

@@ -60,7 +60,7 @@ h1 {
 }
 
 main {
-  background-image: url('/public/images/background.png');
+  background-image: url('/images/background.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 92vh;
