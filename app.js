@@ -20,12 +20,8 @@ app.get('/about', (request, response) => {
 });
 
 app.get('/discography', (request, response) => {
-  response.sendFile(__dirname + '/views/discography.html.html');
+  response.sendFile(__dirname + '/views/discography.html');
 });
-
-// app.get('/gallery', (request, response) => {
-//   response.sendFile(__dirname, '/views/gallery.html');
-// });
 
 app.listen(3000, () => {
   console.log('Servidor activo en el puerto 3000');
